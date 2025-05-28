@@ -1,0 +1,12 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Launch Calculator",
+      "request": "launch",
+      "mainClass": "com.example.Calculator",
+      "projectName": "java-copilot-demo"  // 可选，指定项目名
+    }
+  ]
+}
