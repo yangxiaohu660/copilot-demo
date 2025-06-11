@@ -40,7 +40,7 @@ jobs:
           role-to-assume: ${{ secrets.AWS_ROLE_TO_ASSUME }}
           aws-region: us-west-2
 
-      - uses: anthropics/claude-code-action@latest
+      - uses: anthropics/claude-code-action@v0.0.17
         with:
           trigger_phrase: "@claude"
           timeout_minutes: "60"
