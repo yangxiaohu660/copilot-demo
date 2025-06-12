@@ -46,4 +46,5 @@ jobs:
           timeout_minutes: "60"
           github_token: ${{ steps.app-token.outputs.token }}
           use_bedrock: "true"
-          model: "anthropic.claude-3-5-sonnet-20241022-v2:0"
+          bedrock_region: "ap-northeast-1"
+          model: "anthropic.claude-3-5-sonnet-20240620-v1:0"
