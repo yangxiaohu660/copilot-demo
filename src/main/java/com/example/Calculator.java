@@ -25,7 +25,7 @@ public class Calculator {
         int subtractResult = calculator.subtract(10, 4);
         System.out.println("10 - 4 = " + subtractResult);
         
-        double divideResult = calculator.divide(10, 2);
-        System.out.println("10 / 2 = " + divideResult);
+        double dividedResult = calculator.divide(10, 2);
+        System.out.println("10 / 2 = " + dividedResult);
     }
 }
