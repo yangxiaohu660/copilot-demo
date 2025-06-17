@@ -40,4 +40,4 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           use_bedrock: "true"
           bedrock_region: "us-east-1"
-          model: "anthropic.claude-3-5-sonnet-20240620-v1:0"
+          model: "arn:aws:bedrock:us-east-1:518373337672:inference-profile/us.anthropic.claude-sonnet-4-20250514-v1:0"
