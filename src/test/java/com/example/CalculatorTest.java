@@ -23,6 +23,17 @@ public class CalculatorTest {
     }
     
     @Test
+    public void testMultiply() {
+        Calculator calculator = new Calculator();
+        assertEquals(24, calculator.multiply(4, 6));
+        assertEquals(0, calculator.multiply(0, 5));
+        assertEquals(0, calculator.multiply(5, 0));
+        assertEquals(-15, calculator.multiply(-3, 5));
+        assertEquals(-15, calculator.multiply(3, -5));
+        assertEquals(15, calculator.multiply(-3, -5));
+    }
+    
+    @Test
     public void testDivide() {
         Calculator calculator = new Calculator();
         assertEquals(2.5, calculator.divide(5, 2), 0.001);
