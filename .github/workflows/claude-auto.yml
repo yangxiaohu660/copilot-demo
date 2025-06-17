@@ -47,6 +47,6 @@ jobs:
           github_token: ${{ steps.app-token.outputs.token }}
           use_bedrock: "true"
           bedrock_region: "us-east-1"
-          model: "anthropic.claude-3-haiku-20240307-v1:0"
+          model: "anthropic.claude-3-7-sonnet-20250219-beta:0"
           anthropic_api_params: '{"promptCaching": true}'
 
