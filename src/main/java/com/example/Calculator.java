@@ -10,6 +10,10 @@ public class Calculator {
         return a - b;
     }
     
+    public int multiply(int a, int b) {
+        return a * b;
+    }
+    
     public double divide(double a, double b) {
         if (b == 0) {
             throw new IllegalArgumentException("Division by zero is not allowed");
@@ -24,6 +28,9 @@ public class Calculator {
         
         int subtractResult = calculator.subtract(10, 4);
         System.out.println("10 - 4 = " + subtractResult);
+        
+        int multipliedResult = calculator.multiply(4, 6);
+        System.out.println("4 * 6 = " + multipliedResult);
         
         double dividedResult = calculator.divide(10, 2);
         System.out.println("10 / 2 = " + dividedResult);
